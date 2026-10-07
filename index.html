@@ -48,16 +48,12 @@
       gap: 28px;
     }
 
-    .brand-mark {
+    .brand-logo {
       width: 128px;
       height: 128px;
-      display: grid;
-      place-items: center;
       flex: 0 0 auto;
-      border-radius: 50%;
-      background: var(--coral);
-      color: var(--ink);
-      font: 700 90px/1 Georgia, serif;
+      background: var(--white);
+      object-fit: contain;
     }
 
     .brand-name,
@@ -542,10 +538,9 @@
         gap: 14px;
       }
 
-      .brand-mark {
+      .brand-logo {
         width: 70px;
         height: 70px;
-        font-size: 50px;
       }
 
       .brand-name,
@@ -702,8 +697,8 @@
 </head>
 <body>
   <header class="topbar">
-    <div class="brand" aria-label="Basic English">
-      <div class="brand-mark" aria-hidden="true">B</div>
+    <div class="brand" aria-label="Basic English, ECV Edu Center">
+      <img class="brand-logo" src="assets/ecv-edu-center-logo.png" alt="ECV Edu Center – Kết nối năm châu">
       <div class="brand-name">BASIC ENGLISH</div>
     </div>
     <div class="lesson-label">LESSON 15 <span>/</span> CERTAINTY &amp; UNCERTAINTY</div>
